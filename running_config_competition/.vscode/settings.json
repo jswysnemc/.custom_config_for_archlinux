@@ -1,0 +1,40 @@
+{
+
+    "code-runner.executorMap": {
+        // FileStream
+        "cpp":"mkdir -p $workspaceRoot/bin && g++ $fileName -o $workspaceRoot/bin/$fileNameWithoutExt && konsole -e \"pauser '$workspaceRoot/bin/$fileNameWithoutExt' 'input.txt' 'out.txt' \" ",
+        "java": "mkdir -p $workspaceRoot/bin &&  javac  -d $workspaceRoot/bin -encoding UTF-8 $fileName && konsole -e \"pauser 'java -classpath $workspaceRoot/bin $fileNameWithoutExt' 'input.txt' 'out.txt' \" ",
+        "python" : "konsole -e \"pauser 'python -u $fullFileName'  'input.txt' 'out.txt' \"",
+        "javascript":"konsole -e \"pauser 'bun run $fullFileName' 'input.txt' 'out.txt' \""
+     },
+
+    "code-runner.runInTerminal": true
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

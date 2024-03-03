@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+config_file_dir="/home/snemc/.custom_config/running_config_competition"
+
+cp -r -a $config_file_dir/.   ./

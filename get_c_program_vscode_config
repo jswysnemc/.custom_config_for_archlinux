@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+config_file_dir="/home/snemc/.custom_config/c_program_vscode_config/"
+
+cp -r -a $config_file_dir/.   ./
