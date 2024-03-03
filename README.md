@@ -1,0 +1,2 @@
+# .custom_config_for_archlinux
+我的archlinuxde相关配置
