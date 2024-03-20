@@ -11,7 +11,7 @@ Icon=9216_launcher.0
 MimeType=
 Name[zh_CN]=原神
 Name=原神
-Path=/home/snemc/.wine/dosdevices/c:/Program Files/Genshin Impact
+Path=/home/snemc/windows_d/Program Files/Genshin Impact/Genshin Impact Game
 StartupNotify=true
 StartupWMClass=launcher.exe
 Terminal=false
@@ -36,11 +36,24 @@ StartupWMClass=launcher.exe
 
 ```
 
-## 显卡模式配置
+## 显卡模式配置 -- envycontrol
 
-`envycontrol -s nvidia`  [来源](https://linweiyuan.github.io/2023/09/23/Arch-Linux-%E5%A4%9A%E6%98%BE%E5%8D%A1%E5%88%87%E6%8D%A2%E9%85%8D%E7%BD%AE.html)
+ [来源](https://linweiyuan.github.io/2023/09/23/Arch-Linux-%E5%A4%9A%E6%98%BE%E5%8D%A1%E5%88%87%E6%8D%A2%E9%85%8D%E7%BD%AE.html)  [官网](https://github.com/bayasdev/envycontrol)
+`envycontrol -s nvidia`    英伟达
 
-##  帧率显示
+`nvycontrol -s integrated`  综合
+
+`nvycontrol -s hybrid ` 混合
+
+
+
+`sudo envycontrol --reset`  还原更改
+
+`envycontrol --query`  查询当前模式
+
+`sudo envycontrol -s nvidia --dm lightdm`  设置指定dm
+
+帧率显示
 
 `mangohud`
 

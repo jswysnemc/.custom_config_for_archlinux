@@ -1,3 +1,7 @@
+---
+
+---
+
 > [typora破解过程](https://www.52pojie.cn/thread-1710146-1-1.html)  自动注入工具代码地址：https://github.com/DiamondHunters/NodeInject
 >
 > 破解验证脚本地址：https://github.com/DiamondHunters/NodeInject_Hook_example
