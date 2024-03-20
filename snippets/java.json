@@ -1,0 +1,50 @@
+{
+	// Place your snippets for java here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Java竞赛代码模板(快读快写)": {
+		"prefix": "java",
+		"isFileTemplate": true,
+		
+		"body": [
+			"/*题目来源:  $1",
+			"",
+			"*/",
+
+			"import java.io.*;",
+			
+			"public class ${TM_FILENAME_BASE} {",
+			"    $2",
+			"    public static void main(String[] args) throws Exception{",
+			"        $3",
+			"        pw.flush();",
+			"    }",
+			"    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+			"    static StreamTokenizer st = new StreamTokenizer(br);",
+			"    static int nextInt()throws Exception{st.nextToken();return (int)st.nval;}",
+			"    static long nextLong()throws Exception{st.nextToken();return (long)st.nval;}",
+			"    static PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out));",
+			"}",
+		],
+		"description": "Java竞赛代码模板(快读快写)"
+	},
+    "Java调试log": {
+		"prefix": "log",
+		
+		"body": [
+            "pw.println(\"log:$1\"$2);"
+		],
+		"description": "Java调试log"
+	}
+}

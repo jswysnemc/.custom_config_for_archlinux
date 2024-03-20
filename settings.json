@@ -1,0 +1,87 @@
+{
+    "Codegeex.Privacy": true,
+    "workbench.iconTheme": "office-material-icon-theme",
+    "files.autoSave": "afterDelay", //自动保存
+    "files.autoSaveDelay": 50, //自动保存时间
+    "editor.renderWhitespace": "all", // 显示空白符
+    "terminal.integrated.fontFamily": "Iosevka Nerd Font Mono",
+    "terminal.integrated.fontSize": 17,
+    "editor.mouseWheelZoom": true, // 按住ctrl键使用鼠标滚轮改变字体大小  //
+    "terminal.integrated.enableMultiLinePasteWarning": "never", // 禁止多行粘贴警告
+    "explorer.incrementalNaming": "smart", // 使用指南判断,
+    "explorer.confirmDelete": false,  // 删除文件是否提示使用回收站
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法输入
+    "code-runner.executorMap": {
+        "javascript" : "bun run $fileName",
+    },
+
+
+     //=====================================================================================
+    /***********set scrolloff=10*
+     * 配置主题 *
+     ************/
+     "workbench.colorCustomizations": {
+        // "editor.hoverHighlightBackground": "#ff0000",
+        "editor.background": "#272a30",
+        "sideBar.background": "#292b2e",
+        "activityBar.activeBackground": "#245a04",
+        "activityBar.background": "#1f2122",
+        "statusBar.background": "#245a04",
+        "menubar.selectionBackground": "#245a04",
+        "foreground": "#b2cbbf",
+        "menu.selectionBackground": "#245a04",
+        "titleBar.activeBackground": "#2b2d31",
+        "menu.background": "#373a31e1",
+        "sideBarSectionHeader.background": "#535353",
+        "editor.lineHighlightBackground": "#0e4a074e",
+        "terminal.tab.activeBorder": "#148716ae",
+        "panelTitle.activeBorder": "#148716ae",
+        "peekViewTitleLabel.foreground": "#ff0000",
+        "tab.activeBackground": "#14871660",
+        "tab.activeBorder": "#ffffff",
+        "quickInputList.focusBackground": "#148716ae",
+        "panel.border": "#d7bcbc91",
+        // "panelSection.border": "#ff0000",
+        "editorLineNumber.activeForeground": "#148716",
+        "editorLineNumber.foreground": "#f1e6e63e",
+        "panel.background": "#2c2e2dc3",
+        // "editorWidget.border": "#b9bece",
+        "editor.lineHighlightBorder": "#ffffff86", //光标所在行四周边框的颜色
+        "sideBar.border": "#d7bcbc91", //侧边栏边框
+        "editorGroup.border": "#d7bcbc91",
+        "terminal.background": "#2e353c",
+        "menubar.selectionBorder": "#b7b7c2",
+        "list.inactiveSelectionForeground": "#9bc556",
+        "list.activeSelectionForeground": "#9bc556",
+        "list.activeSelectionBackground": "#374978",
+        "list.inactiveSelectionBackground": "#374978",
+        "[Default Dark+]": {
+            "editorBracketHighlight.foreground3": "#9CDCFE",
+            "editorBracketHighlight.foreground4": "#F3FD00",
+            "editorBracketHighlight.foreground5": "#F47D9F",
+            "editorBracketHighlight.foreground6": "#A5ADFE"
+        }
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.fontFamily": "Iosevka",
+    "editor.fontWeight": "bold",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "accessibility.voice.speechLanguage": "zh-CN",
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.zst": "default"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "vscode-office.openOutline": false,
+    "vscode-office.editorTheme": "Dracula",
+    "vscode-office.editorLanguage": "zh_CN",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+}
